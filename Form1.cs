@@ -16,5 +16,15 @@ namespace Sudoku_Solver
         {
             InitializeComponent();
         }
+
+        private void solveToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+
+    public class Sudoku
+    {
+
     }
 }
