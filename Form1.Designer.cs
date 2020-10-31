@@ -1290,6 +1290,7 @@
             this.new_matrix.TabIndex = 0;
             this.new_matrix.Text = "New";
             this.new_matrix.UseVisualStyleBackColor = false;
+            this.new_matrix.Click += new System.EventHandler(this.new_matrix_Click);
             // 
             // Check_result
             // 
@@ -1301,6 +1302,7 @@
             this.Check_result.TabIndex = 0;
             this.Check_result.Text = "Check";
             this.Check_result.UseVisualStyleBackColor = false;
+            this.Check_result.Click += new System.EventHandler(this.Check_result_Click);
             // 
             // solve_matrix
             // 
