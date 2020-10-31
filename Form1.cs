@@ -28,7 +28,13 @@ namespace Sudoku_Solver
         private void solve_matrix_Click(object sender, EventArgs e)
         {
             init_sudoku_matrix();
-            solve_sudoku_maxtrix(sudoku_matrix, sudoku_matrix.GetLength(0) -1, sudoku_matrix.GetLength(1)-1);
+            for(int i = 0; i < sudoku_matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < sudoku_matrix.GetLength(1); j++)
+                {
+                    solve_sudoku_maxtrix(sudoku_matrix, i, j);
+                }
+            }                
         }
 
         public void init_sudoku_matrix()
@@ -81,11 +87,25 @@ namespace Sudoku_Solver
 
         public void solve_sudoku_maxtrix(int[,] matrix_array, int row, int col)
         {
+            int z = 0, index = 0;
             if (col == 9)
             {
                 if (row == 8)
                 {
-                    MessageBox.Show(matrix_array.ToString());
+                    for (int m = 0; m < 9; m++)
+                    {
+                        for (int n = 0; n < 9; n++)
+                        {
+                            arr_tmp[index] = matrix_array[m, n];
+                            index++;
+                            if (index == 81) index = 0;
+                        }
+                    }
+                    foreach (Control element in input.Controls.OfType<TextBox>())
+                    {
+                        element.Text = arr_tmp[z].ToString();
+                        z++;
+                    }
                 }
                 else
                 {
