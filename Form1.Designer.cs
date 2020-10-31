@@ -30,88 +30,88 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.title = new System.Windows.Forms.Label();
-            this.a11 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.i33 = new System.Windows.Forms.TextBox();
-            this.h33 = new System.Windows.Forms.TextBox();
-            this.f33 = new System.Windows.Forms.TextBox();
-            this.e33 = new System.Windows.Forms.TextBox();
-            this.g33 = new System.Windows.Forms.TextBox();
-            this.c33 = new System.Windows.Forms.TextBox();
-            this.d33 = new System.Windows.Forms.TextBox();
-            this.i32 = new System.Windows.Forms.TextBox();
-            this.b33 = new System.Windows.Forms.TextBox();
-            this.f32 = new System.Windows.Forms.TextBox();
-            this.h32 = new System.Windows.Forms.TextBox();
-            this.a33 = new System.Windows.Forms.TextBox();
-            this.e32 = new System.Windows.Forms.TextBox();
-            this.g32 = new System.Windows.Forms.TextBox();
-            this.c32 = new System.Windows.Forms.TextBox();
-            this.d32 = new System.Windows.Forms.TextBox();
-            this.i23 = new System.Windows.Forms.TextBox();
-            this.b32 = new System.Windows.Forms.TextBox();
-            this.f23 = new System.Windows.Forms.TextBox();
-            this.i22 = new System.Windows.Forms.TextBox();
-            this.a32 = new System.Windows.Forms.TextBox();
-            this.f22 = new System.Windows.Forms.TextBox();
-            this.h23 = new System.Windows.Forms.TextBox();
-            this.c23 = new System.Windows.Forms.TextBox();
-            this.e23 = new System.Windows.Forms.TextBox();
-            this.h22 = new System.Windows.Forms.TextBox();
-            this.c22 = new System.Windows.Forms.TextBox();
-            this.e22 = new System.Windows.Forms.TextBox();
-            this.i31 = new System.Windows.Forms.TextBox();
-            this.b23 = new System.Windows.Forms.TextBox();
-            this.f31 = new System.Windows.Forms.TextBox();
-            this.g23 = new System.Windows.Forms.TextBox();
-            this.b22 = new System.Windows.Forms.TextBox();
-            this.d23 = new System.Windows.Forms.TextBox();
-            this.h31 = new System.Windows.Forms.TextBox();
-            this.c31 = new System.Windows.Forms.TextBox();
-            this.e31 = new System.Windows.Forms.TextBox();
-            this.i13 = new System.Windows.Forms.TextBox();
-            this.a23 = new System.Windows.Forms.TextBox();
-            this.f13 = new System.Windows.Forms.TextBox();
-            this.g22 = new System.Windows.Forms.TextBox();
-            this.b31 = new System.Windows.Forms.TextBox();
-            this.d22 = new System.Windows.Forms.TextBox();
-            this.h13 = new System.Windows.Forms.TextBox();
-            this.c13 = new System.Windows.Forms.TextBox();
-            this.e13 = new System.Windows.Forms.TextBox();
-            this.i21 = new System.Windows.Forms.TextBox();
-            this.a22 = new System.Windows.Forms.TextBox();
-            this.f21 = new System.Windows.Forms.TextBox();
-            this.g31 = new System.Windows.Forms.TextBox();
-            this.b13 = new System.Windows.Forms.TextBox();
-            this.d31 = new System.Windows.Forms.TextBox();
-            this.h21 = new System.Windows.Forms.TextBox();
-            this.c21 = new System.Windows.Forms.TextBox();
-            this.e21 = new System.Windows.Forms.TextBox();
-            this.i12 = new System.Windows.Forms.TextBox();
-            this.a31 = new System.Windows.Forms.TextBox();
-            this.f12 = new System.Windows.Forms.TextBox();
-            this.g13 = new System.Windows.Forms.TextBox();
-            this.b21 = new System.Windows.Forms.TextBox();
-            this.d13 = new System.Windows.Forms.TextBox();
-            this.h12 = new System.Windows.Forms.TextBox();
-            this.c12 = new System.Windows.Forms.TextBox();
-            this.e12 = new System.Windows.Forms.TextBox();
-            this.i11 = new System.Windows.Forms.TextBox();
-            this.a13 = new System.Windows.Forms.TextBox();
-            this.f11 = new System.Windows.Forms.TextBox();
-            this.g21 = new System.Windows.Forms.TextBox();
-            this.b12 = new System.Windows.Forms.TextBox();
-            this.d21 = new System.Windows.Forms.TextBox();
-            this.h11 = new System.Windows.Forms.TextBox();
-            this.c11 = new System.Windows.Forms.TextBox();
-            this.e11 = new System.Windows.Forms.TextBox();
-            this.g12 = new System.Windows.Forms.TextBox();
-            this.a21 = new System.Windows.Forms.TextBox();
-            this.d12 = new System.Windows.Forms.TextBox();
-            this.g11 = new System.Windows.Forms.TextBox();
-            this.b11 = new System.Windows.Forms.TextBox();
-            this.d11 = new System.Windows.Forms.TextBox();
-            this.a12 = new System.Windows.Forms.TextBox();
+            this.input = new System.Windows.Forms.GroupBox();
+            this.textBox81 = new System.Windows.Forms.TextBox();
+            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox80 = new System.Windows.Forms.TextBox();
+            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox79 = new System.Windows.Forms.TextBox();
+            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox78 = new System.Windows.Forms.TextBox();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox77 = new System.Windows.Forms.TextBox();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox76 = new System.Windows.Forms.TextBox();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox75 = new System.Windows.Forms.TextBox();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.textBox74 = new System.Windows.Forms.TextBox();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox73 = new System.Windows.Forms.TextBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox72 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox71 = new System.Windows.Forms.TextBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox70 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.textBox69 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.textBox68 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox67 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox65 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox64 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox63 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox61 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox60 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox59 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox58 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox57 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -134,7 +134,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
-            this.groupBox1.SuspendLayout();
+            this.input.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -154,1069 +154,1069 @@
             this.title.TabIndex = 0;
             this.title.Text = "Sudoku Solver";
             // 
-            // a11
-            // 
-            this.a11.BackColor = System.Drawing.Color.Silver;
-            this.a11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a11.ForeColor = System.Drawing.Color.Red;
-            this.a11.Location = new System.Drawing.Point(6, 19);
-            this.a11.Multiline = true;
-            this.a11.Name = "a11";
-            this.a11.Size = new System.Drawing.Size(50, 50);
-            this.a11.TabIndex = 1;
-            this.a11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Black;
-            this.groupBox1.Controls.Add(this.i33);
-            this.groupBox1.Controls.Add(this.h33);
-            this.groupBox1.Controls.Add(this.f33);
-            this.groupBox1.Controls.Add(this.e33);
-            this.groupBox1.Controls.Add(this.g33);
-            this.groupBox1.Controls.Add(this.c33);
-            this.groupBox1.Controls.Add(this.d33);
-            this.groupBox1.Controls.Add(this.i32);
-            this.groupBox1.Controls.Add(this.b33);
-            this.groupBox1.Controls.Add(this.f32);
-            this.groupBox1.Controls.Add(this.h32);
-            this.groupBox1.Controls.Add(this.a33);
-            this.groupBox1.Controls.Add(this.e32);
-            this.groupBox1.Controls.Add(this.g32);
-            this.groupBox1.Controls.Add(this.c32);
-            this.groupBox1.Controls.Add(this.d32);
-            this.groupBox1.Controls.Add(this.i23);
-            this.groupBox1.Controls.Add(this.b32);
-            this.groupBox1.Controls.Add(this.f23);
-            this.groupBox1.Controls.Add(this.i22);
-            this.groupBox1.Controls.Add(this.a32);
-            this.groupBox1.Controls.Add(this.f22);
-            this.groupBox1.Controls.Add(this.h23);
-            this.groupBox1.Controls.Add(this.c23);
-            this.groupBox1.Controls.Add(this.e23);
-            this.groupBox1.Controls.Add(this.h22);
-            this.groupBox1.Controls.Add(this.c22);
-            this.groupBox1.Controls.Add(this.e22);
-            this.groupBox1.Controls.Add(this.i31);
-            this.groupBox1.Controls.Add(this.b23);
-            this.groupBox1.Controls.Add(this.f31);
-            this.groupBox1.Controls.Add(this.g23);
-            this.groupBox1.Controls.Add(this.b22);
-            this.groupBox1.Controls.Add(this.d23);
-            this.groupBox1.Controls.Add(this.h31);
-            this.groupBox1.Controls.Add(this.c31);
-            this.groupBox1.Controls.Add(this.e31);
-            this.groupBox1.Controls.Add(this.i13);
-            this.groupBox1.Controls.Add(this.a23);
-            this.groupBox1.Controls.Add(this.f13);
-            this.groupBox1.Controls.Add(this.g22);
-            this.groupBox1.Controls.Add(this.b31);
-            this.groupBox1.Controls.Add(this.d22);
-            this.groupBox1.Controls.Add(this.h13);
-            this.groupBox1.Controls.Add(this.c13);
-            this.groupBox1.Controls.Add(this.e13);
-            this.groupBox1.Controls.Add(this.i21);
-            this.groupBox1.Controls.Add(this.a22);
-            this.groupBox1.Controls.Add(this.f21);
-            this.groupBox1.Controls.Add(this.g31);
-            this.groupBox1.Controls.Add(this.b13);
-            this.groupBox1.Controls.Add(this.d31);
-            this.groupBox1.Controls.Add(this.h21);
-            this.groupBox1.Controls.Add(this.c21);
-            this.groupBox1.Controls.Add(this.e21);
-            this.groupBox1.Controls.Add(this.i12);
-            this.groupBox1.Controls.Add(this.a31);
-            this.groupBox1.Controls.Add(this.f12);
-            this.groupBox1.Controls.Add(this.g13);
-            this.groupBox1.Controls.Add(this.b21);
-            this.groupBox1.Controls.Add(this.d13);
-            this.groupBox1.Controls.Add(this.h12);
-            this.groupBox1.Controls.Add(this.c12);
-            this.groupBox1.Controls.Add(this.e12);
-            this.groupBox1.Controls.Add(this.i11);
-            this.groupBox1.Controls.Add(this.a13);
-            this.groupBox1.Controls.Add(this.f11);
-            this.groupBox1.Controls.Add(this.g21);
-            this.groupBox1.Controls.Add(this.b12);
-            this.groupBox1.Controls.Add(this.d21);
-            this.groupBox1.Controls.Add(this.h11);
-            this.groupBox1.Controls.Add(this.c11);
-            this.groupBox1.Controls.Add(this.e11);
-            this.groupBox1.Controls.Add(this.g12);
-            this.groupBox1.Controls.Add(this.a21);
-            this.groupBox1.Controls.Add(this.d12);
-            this.groupBox1.Controls.Add(this.g11);
-            this.groupBox1.Controls.Add(this.b11);
-            this.groupBox1.Controls.Add(this.d11);
-            this.groupBox1.Controls.Add(this.a12);
-            this.groupBox1.Controls.Add(this.a11);
-            this.groupBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.groupBox1.Location = new System.Drawing.Point(17, 145);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(542, 561);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Input";
-            // 
-            // i33
-            // 
-            this.i33.BackColor = System.Drawing.Color.Silver;
-            this.i33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i33.ForeColor = System.Drawing.Color.Red;
-            this.i33.Location = new System.Drawing.Point(483, 500);
-            this.i33.Multiline = true;
-            this.i33.Name = "i33";
-            this.i33.Size = new System.Drawing.Size(50, 50);
-            this.i33.TabIndex = 1;
-            this.i33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h33
-            // 
-            this.h33.BackColor = System.Drawing.Color.Silver;
-            this.h33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h33.ForeColor = System.Drawing.Color.Red;
-            this.h33.Location = new System.Drawing.Point(300, 500);
-            this.h33.Multiline = true;
-            this.h33.Name = "h33";
-            this.h33.Size = new System.Drawing.Size(50, 50);
-            this.h33.TabIndex = 1;
-            this.h33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f33
-            // 
-            this.f33.BackColor = System.Drawing.Color.Silver;
-            this.f33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f33.ForeColor = System.Drawing.Color.Red;
-            this.f33.Location = new System.Drawing.Point(483, 313);
-            this.f33.Multiline = true;
-            this.f33.Name = "f33";
-            this.f33.Size = new System.Drawing.Size(50, 50);
-            this.f33.TabIndex = 1;
-            this.f33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e33
-            // 
-            this.e33.BackColor = System.Drawing.Color.Silver;
-            this.e33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e33.ForeColor = System.Drawing.Color.Red;
-            this.e33.Location = new System.Drawing.Point(300, 313);
-            this.e33.Multiline = true;
-            this.e33.Name = "e33";
-            this.e33.Size = new System.Drawing.Size(50, 50);
-            this.e33.TabIndex = 1;
-            this.e33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g33
-            // 
-            this.g33.BackColor = System.Drawing.Color.Silver;
-            this.g33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g33.ForeColor = System.Drawing.Color.Red;
-            this.g33.Location = new System.Drawing.Point(118, 500);
-            this.g33.Multiline = true;
-            this.g33.Name = "g33";
-            this.g33.Size = new System.Drawing.Size(50, 50);
-            this.g33.TabIndex = 1;
-            this.g33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c33
-            // 
-            this.c33.BackColor = System.Drawing.Color.Silver;
-            this.c33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c33.ForeColor = System.Drawing.Color.Red;
-            this.c33.Location = new System.Drawing.Point(483, 131);
-            this.c33.Multiline = true;
-            this.c33.Name = "c33";
-            this.c33.Size = new System.Drawing.Size(50, 50);
-            this.c33.TabIndex = 1;
-            this.c33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d33
-            // 
-            this.d33.BackColor = System.Drawing.Color.Silver;
-            this.d33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d33.ForeColor = System.Drawing.Color.Red;
-            this.d33.Location = new System.Drawing.Point(118, 313);
-            this.d33.Multiline = true;
-            this.d33.Name = "d33";
-            this.d33.Size = new System.Drawing.Size(50, 50);
-            this.d33.TabIndex = 1;
-            this.d33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i32
-            // 
-            this.i32.BackColor = System.Drawing.Color.Silver;
-            this.i32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i32.ForeColor = System.Drawing.Color.Red;
-            this.i32.Location = new System.Drawing.Point(427, 500);
-            this.i32.Multiline = true;
-            this.i32.Name = "i32";
-            this.i32.Size = new System.Drawing.Size(50, 50);
-            this.i32.TabIndex = 1;
-            this.i32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b33
-            // 
-            this.b33.BackColor = System.Drawing.Color.Silver;
-            this.b33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b33.ForeColor = System.Drawing.Color.Red;
-            this.b33.Location = new System.Drawing.Point(300, 131);
-            this.b33.Multiline = true;
-            this.b33.Name = "b33";
-            this.b33.Size = new System.Drawing.Size(50, 50);
-            this.b33.TabIndex = 1;
-            this.b33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f32
-            // 
-            this.f32.BackColor = System.Drawing.Color.Silver;
-            this.f32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f32.ForeColor = System.Drawing.Color.Red;
-            this.f32.Location = new System.Drawing.Point(427, 313);
-            this.f32.Multiline = true;
-            this.f32.Name = "f32";
-            this.f32.Size = new System.Drawing.Size(50, 50);
-            this.f32.TabIndex = 1;
-            this.f32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h32
-            // 
-            this.h32.BackColor = System.Drawing.Color.Silver;
-            this.h32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h32.ForeColor = System.Drawing.Color.Red;
-            this.h32.Location = new System.Drawing.Point(244, 500);
-            this.h32.Multiline = true;
-            this.h32.Name = "h32";
-            this.h32.Size = new System.Drawing.Size(50, 50);
-            this.h32.TabIndex = 1;
-            this.h32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a33
-            // 
-            this.a33.BackColor = System.Drawing.Color.Silver;
-            this.a33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a33.ForeColor = System.Drawing.Color.Red;
-            this.a33.Location = new System.Drawing.Point(118, 131);
-            this.a33.Multiline = true;
-            this.a33.Name = "a33";
-            this.a33.Size = new System.Drawing.Size(50, 50);
-            this.a33.TabIndex = 1;
-            this.a33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e32
-            // 
-            this.e32.BackColor = System.Drawing.Color.Silver;
-            this.e32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e32.ForeColor = System.Drawing.Color.Red;
-            this.e32.Location = new System.Drawing.Point(244, 313);
-            this.e32.Multiline = true;
-            this.e32.Name = "e32";
-            this.e32.Size = new System.Drawing.Size(50, 50);
-            this.e32.TabIndex = 1;
-            this.e32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g32
-            // 
-            this.g32.BackColor = System.Drawing.Color.Silver;
-            this.g32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g32.ForeColor = System.Drawing.Color.Red;
-            this.g32.Location = new System.Drawing.Point(62, 500);
-            this.g32.Multiline = true;
-            this.g32.Name = "g32";
-            this.g32.Size = new System.Drawing.Size(50, 50);
-            this.g32.TabIndex = 1;
-            this.g32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c32
-            // 
-            this.c32.BackColor = System.Drawing.Color.Silver;
-            this.c32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c32.ForeColor = System.Drawing.Color.Red;
-            this.c32.Location = new System.Drawing.Point(427, 131);
-            this.c32.Multiline = true;
-            this.c32.Name = "c32";
-            this.c32.Size = new System.Drawing.Size(50, 50);
-            this.c32.TabIndex = 1;
-            this.c32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d32
-            // 
-            this.d32.BackColor = System.Drawing.Color.Silver;
-            this.d32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d32.ForeColor = System.Drawing.Color.Red;
-            this.d32.Location = new System.Drawing.Point(62, 313);
-            this.d32.Multiline = true;
-            this.d32.Name = "d32";
-            this.d32.Size = new System.Drawing.Size(50, 50);
-            this.d32.TabIndex = 1;
-            this.d32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i23
-            // 
-            this.i23.BackColor = System.Drawing.Color.Silver;
-            this.i23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i23.ForeColor = System.Drawing.Color.Red;
-            this.i23.Location = new System.Drawing.Point(483, 444);
-            this.i23.Multiline = true;
-            this.i23.Name = "i23";
-            this.i23.Size = new System.Drawing.Size(50, 50);
-            this.i23.TabIndex = 1;
-            this.i23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b32
-            // 
-            this.b32.BackColor = System.Drawing.Color.Silver;
-            this.b32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b32.ForeColor = System.Drawing.Color.Red;
-            this.b32.Location = new System.Drawing.Point(244, 131);
-            this.b32.Multiline = true;
-            this.b32.Name = "b32";
-            this.b32.Size = new System.Drawing.Size(50, 50);
-            this.b32.TabIndex = 1;
-            this.b32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f23
-            // 
-            this.f23.BackColor = System.Drawing.Color.Silver;
-            this.f23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f23.ForeColor = System.Drawing.Color.Red;
-            this.f23.Location = new System.Drawing.Point(483, 257);
-            this.f23.Multiline = true;
-            this.f23.Name = "f23";
-            this.f23.Size = new System.Drawing.Size(50, 50);
-            this.f23.TabIndex = 1;
-            this.f23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i22
-            // 
-            this.i22.BackColor = System.Drawing.Color.Silver;
-            this.i22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i22.ForeColor = System.Drawing.Color.Red;
-            this.i22.Location = new System.Drawing.Point(427, 444);
-            this.i22.Multiline = true;
-            this.i22.Name = "i22";
-            this.i22.Size = new System.Drawing.Size(50, 50);
-            this.i22.TabIndex = 1;
-            this.i22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a32
-            // 
-            this.a32.BackColor = System.Drawing.Color.Silver;
-            this.a32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a32.ForeColor = System.Drawing.Color.Red;
-            this.a32.Location = new System.Drawing.Point(62, 131);
-            this.a32.Multiline = true;
-            this.a32.Name = "a32";
-            this.a32.Size = new System.Drawing.Size(50, 50);
-            this.a32.TabIndex = 1;
-            this.a32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f22
-            // 
-            this.f22.BackColor = System.Drawing.Color.Silver;
-            this.f22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f22.ForeColor = System.Drawing.Color.Red;
-            this.f22.Location = new System.Drawing.Point(427, 257);
-            this.f22.Multiline = true;
-            this.f22.Name = "f22";
-            this.f22.Size = new System.Drawing.Size(50, 50);
-            this.f22.TabIndex = 1;
-            this.f22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h23
-            // 
-            this.h23.BackColor = System.Drawing.Color.Silver;
-            this.h23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h23.ForeColor = System.Drawing.Color.Red;
-            this.h23.Location = new System.Drawing.Point(300, 444);
-            this.h23.Multiline = true;
-            this.h23.Name = "h23";
-            this.h23.Size = new System.Drawing.Size(50, 50);
-            this.h23.TabIndex = 1;
-            this.h23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c23
-            // 
-            this.c23.BackColor = System.Drawing.Color.Silver;
-            this.c23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c23.ForeColor = System.Drawing.Color.Red;
-            this.c23.Location = new System.Drawing.Point(483, 75);
-            this.c23.Multiline = true;
-            this.c23.Name = "c23";
-            this.c23.Size = new System.Drawing.Size(50, 50);
-            this.c23.TabIndex = 1;
-            this.c23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e23
-            // 
-            this.e23.BackColor = System.Drawing.Color.Silver;
-            this.e23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e23.ForeColor = System.Drawing.Color.Red;
-            this.e23.Location = new System.Drawing.Point(300, 257);
-            this.e23.Multiline = true;
-            this.e23.Name = "e23";
-            this.e23.Size = new System.Drawing.Size(50, 50);
-            this.e23.TabIndex = 1;
-            this.e23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h22
-            // 
-            this.h22.BackColor = System.Drawing.Color.Silver;
-            this.h22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h22.ForeColor = System.Drawing.Color.Red;
-            this.h22.Location = new System.Drawing.Point(244, 444);
-            this.h22.Multiline = true;
-            this.h22.Name = "h22";
-            this.h22.Size = new System.Drawing.Size(50, 50);
-            this.h22.TabIndex = 1;
-            this.h22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c22
-            // 
-            this.c22.BackColor = System.Drawing.Color.Silver;
-            this.c22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c22.ForeColor = System.Drawing.Color.Red;
-            this.c22.Location = new System.Drawing.Point(427, 75);
-            this.c22.Multiline = true;
-            this.c22.Name = "c22";
-            this.c22.Size = new System.Drawing.Size(50, 50);
-            this.c22.TabIndex = 1;
-            this.c22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e22
-            // 
-            this.e22.BackColor = System.Drawing.Color.Silver;
-            this.e22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e22.ForeColor = System.Drawing.Color.Red;
-            this.e22.Location = new System.Drawing.Point(244, 257);
-            this.e22.Multiline = true;
-            this.e22.Name = "e22";
-            this.e22.Size = new System.Drawing.Size(50, 50);
-            this.e22.TabIndex = 1;
-            this.e22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i31
-            // 
-            this.i31.BackColor = System.Drawing.Color.Silver;
-            this.i31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i31.ForeColor = System.Drawing.Color.Red;
-            this.i31.Location = new System.Drawing.Point(371, 500);
-            this.i31.Multiline = true;
-            this.i31.Name = "i31";
-            this.i31.Size = new System.Drawing.Size(50, 50);
-            this.i31.TabIndex = 1;
-            this.i31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b23
-            // 
-            this.b23.BackColor = System.Drawing.Color.Silver;
-            this.b23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b23.ForeColor = System.Drawing.Color.Red;
-            this.b23.Location = new System.Drawing.Point(300, 75);
-            this.b23.Multiline = true;
-            this.b23.Name = "b23";
-            this.b23.Size = new System.Drawing.Size(50, 50);
-            this.b23.TabIndex = 1;
-            this.b23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f31
-            // 
-            this.f31.BackColor = System.Drawing.Color.Silver;
-            this.f31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f31.ForeColor = System.Drawing.Color.Red;
-            this.f31.Location = new System.Drawing.Point(371, 313);
-            this.f31.Multiline = true;
-            this.f31.Name = "f31";
-            this.f31.Size = new System.Drawing.Size(50, 50);
-            this.f31.TabIndex = 1;
-            this.f31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g23
-            // 
-            this.g23.BackColor = System.Drawing.Color.Silver;
-            this.g23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g23.ForeColor = System.Drawing.Color.Red;
-            this.g23.Location = new System.Drawing.Point(118, 444);
-            this.g23.Multiline = true;
-            this.g23.Name = "g23";
-            this.g23.Size = new System.Drawing.Size(50, 50);
-            this.g23.TabIndex = 1;
-            this.g23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b22
-            // 
-            this.b22.BackColor = System.Drawing.Color.Silver;
-            this.b22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b22.ForeColor = System.Drawing.Color.Red;
-            this.b22.Location = new System.Drawing.Point(244, 75);
-            this.b22.Multiline = true;
-            this.b22.Name = "b22";
-            this.b22.Size = new System.Drawing.Size(50, 50);
-            this.b22.TabIndex = 1;
-            this.b22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d23
-            // 
-            this.d23.BackColor = System.Drawing.Color.Silver;
-            this.d23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d23.ForeColor = System.Drawing.Color.Red;
-            this.d23.Location = new System.Drawing.Point(118, 257);
-            this.d23.Multiline = true;
-            this.d23.Name = "d23";
-            this.d23.Size = new System.Drawing.Size(50, 50);
-            this.d23.TabIndex = 1;
-            this.d23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h31
-            // 
-            this.h31.BackColor = System.Drawing.Color.Silver;
-            this.h31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h31.ForeColor = System.Drawing.Color.Red;
-            this.h31.Location = new System.Drawing.Point(188, 500);
-            this.h31.Multiline = true;
-            this.h31.Name = "h31";
-            this.h31.Size = new System.Drawing.Size(50, 50);
-            this.h31.TabIndex = 1;
-            this.h31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c31
-            // 
-            this.c31.BackColor = System.Drawing.Color.Silver;
-            this.c31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c31.ForeColor = System.Drawing.Color.Red;
-            this.c31.Location = new System.Drawing.Point(371, 131);
-            this.c31.Multiline = true;
-            this.c31.Name = "c31";
-            this.c31.Size = new System.Drawing.Size(50, 50);
-            this.c31.TabIndex = 1;
-            this.c31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e31
-            // 
-            this.e31.BackColor = System.Drawing.Color.Silver;
-            this.e31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e31.ForeColor = System.Drawing.Color.Red;
-            this.e31.Location = new System.Drawing.Point(188, 313);
-            this.e31.Multiline = true;
-            this.e31.Name = "e31";
-            this.e31.Size = new System.Drawing.Size(50, 50);
-            this.e31.TabIndex = 1;
-            this.e31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i13
-            // 
-            this.i13.BackColor = System.Drawing.Color.Silver;
-            this.i13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i13.ForeColor = System.Drawing.Color.Red;
-            this.i13.Location = new System.Drawing.Point(483, 388);
-            this.i13.Multiline = true;
-            this.i13.Name = "i13";
-            this.i13.Size = new System.Drawing.Size(50, 50);
-            this.i13.TabIndex = 1;
-            this.i13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a23
-            // 
-            this.a23.BackColor = System.Drawing.Color.Silver;
-            this.a23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a23.ForeColor = System.Drawing.Color.Red;
-            this.a23.Location = new System.Drawing.Point(118, 75);
-            this.a23.Multiline = true;
-            this.a23.Name = "a23";
-            this.a23.Size = new System.Drawing.Size(50, 50);
-            this.a23.TabIndex = 1;
-            this.a23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f13
-            // 
-            this.f13.BackColor = System.Drawing.Color.Silver;
-            this.f13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f13.ForeColor = System.Drawing.Color.Red;
-            this.f13.Location = new System.Drawing.Point(483, 201);
-            this.f13.Multiline = true;
-            this.f13.Name = "f13";
-            this.f13.Size = new System.Drawing.Size(50, 50);
-            this.f13.TabIndex = 1;
-            this.f13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g22
-            // 
-            this.g22.BackColor = System.Drawing.Color.Silver;
-            this.g22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g22.ForeColor = System.Drawing.Color.Red;
-            this.g22.Location = new System.Drawing.Point(62, 444);
-            this.g22.Multiline = true;
-            this.g22.Name = "g22";
-            this.g22.Size = new System.Drawing.Size(50, 50);
-            this.g22.TabIndex = 1;
-            this.g22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b31
-            // 
-            this.b31.BackColor = System.Drawing.Color.Silver;
-            this.b31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b31.ForeColor = System.Drawing.Color.Red;
-            this.b31.Location = new System.Drawing.Point(188, 131);
-            this.b31.Multiline = true;
-            this.b31.Name = "b31";
-            this.b31.Size = new System.Drawing.Size(50, 50);
-            this.b31.TabIndex = 1;
-            this.b31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d22
-            // 
-            this.d22.BackColor = System.Drawing.Color.Silver;
-            this.d22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d22.ForeColor = System.Drawing.Color.Red;
-            this.d22.Location = new System.Drawing.Point(62, 257);
-            this.d22.Multiline = true;
-            this.d22.Name = "d22";
-            this.d22.Size = new System.Drawing.Size(50, 50);
-            this.d22.TabIndex = 1;
-            this.d22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h13
-            // 
-            this.h13.BackColor = System.Drawing.Color.Silver;
-            this.h13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h13.ForeColor = System.Drawing.Color.Red;
-            this.h13.Location = new System.Drawing.Point(300, 388);
-            this.h13.Multiline = true;
-            this.h13.Name = "h13";
-            this.h13.Size = new System.Drawing.Size(50, 50);
-            this.h13.TabIndex = 1;
-            this.h13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c13
-            // 
-            this.c13.BackColor = System.Drawing.Color.Silver;
-            this.c13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c13.ForeColor = System.Drawing.Color.Red;
-            this.c13.Location = new System.Drawing.Point(483, 19);
-            this.c13.Multiline = true;
-            this.c13.Name = "c13";
-            this.c13.Size = new System.Drawing.Size(50, 50);
-            this.c13.TabIndex = 1;
-            this.c13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e13
-            // 
-            this.e13.BackColor = System.Drawing.Color.Silver;
-            this.e13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e13.ForeColor = System.Drawing.Color.Red;
-            this.e13.Location = new System.Drawing.Point(300, 201);
-            this.e13.Multiline = true;
-            this.e13.Name = "e13";
-            this.e13.Size = new System.Drawing.Size(50, 50);
-            this.e13.TabIndex = 1;
-            this.e13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i21
-            // 
-            this.i21.BackColor = System.Drawing.Color.Silver;
-            this.i21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i21.ForeColor = System.Drawing.Color.Red;
-            this.i21.Location = new System.Drawing.Point(371, 444);
-            this.i21.Multiline = true;
-            this.i21.Name = "i21";
-            this.i21.Size = new System.Drawing.Size(50, 50);
-            this.i21.TabIndex = 1;
-            this.i21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a22
-            // 
-            this.a22.BackColor = System.Drawing.Color.Silver;
-            this.a22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a22.ForeColor = System.Drawing.Color.Red;
-            this.a22.Location = new System.Drawing.Point(62, 75);
-            this.a22.Multiline = true;
-            this.a22.Name = "a22";
-            this.a22.Size = new System.Drawing.Size(50, 50);
-            this.a22.TabIndex = 1;
-            this.a22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f21
-            // 
-            this.f21.BackColor = System.Drawing.Color.Silver;
-            this.f21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f21.ForeColor = System.Drawing.Color.Red;
-            this.f21.Location = new System.Drawing.Point(371, 257);
-            this.f21.Multiline = true;
-            this.f21.Name = "f21";
-            this.f21.Size = new System.Drawing.Size(50, 50);
-            this.f21.TabIndex = 1;
-            this.f21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g31
-            // 
-            this.g31.BackColor = System.Drawing.Color.Silver;
-            this.g31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g31.ForeColor = System.Drawing.Color.Red;
-            this.g31.Location = new System.Drawing.Point(6, 500);
-            this.g31.Multiline = true;
-            this.g31.Name = "g31";
-            this.g31.Size = new System.Drawing.Size(50, 50);
-            this.g31.TabIndex = 1;
-            this.g31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b13
-            // 
-            this.b13.BackColor = System.Drawing.Color.Silver;
-            this.b13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b13.ForeColor = System.Drawing.Color.Red;
-            this.b13.Location = new System.Drawing.Point(300, 19);
-            this.b13.Multiline = true;
-            this.b13.Name = "b13";
-            this.b13.Size = new System.Drawing.Size(50, 50);
-            this.b13.TabIndex = 1;
-            this.b13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d31
-            // 
-            this.d31.BackColor = System.Drawing.Color.Silver;
-            this.d31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d31.ForeColor = System.Drawing.Color.Red;
-            this.d31.Location = new System.Drawing.Point(6, 313);
-            this.d31.Multiline = true;
-            this.d31.Name = "d31";
-            this.d31.Size = new System.Drawing.Size(50, 50);
-            this.d31.TabIndex = 1;
-            this.d31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h21
-            // 
-            this.h21.BackColor = System.Drawing.Color.Silver;
-            this.h21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h21.ForeColor = System.Drawing.Color.Red;
-            this.h21.Location = new System.Drawing.Point(188, 444);
-            this.h21.Multiline = true;
-            this.h21.Name = "h21";
-            this.h21.Size = new System.Drawing.Size(50, 50);
-            this.h21.TabIndex = 1;
-            this.h21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c21
-            // 
-            this.c21.BackColor = System.Drawing.Color.Silver;
-            this.c21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c21.ForeColor = System.Drawing.Color.Red;
-            this.c21.Location = new System.Drawing.Point(371, 75);
-            this.c21.Multiline = true;
-            this.c21.Name = "c21";
-            this.c21.Size = new System.Drawing.Size(50, 50);
-            this.c21.TabIndex = 1;
-            this.c21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e21
-            // 
-            this.e21.BackColor = System.Drawing.Color.Silver;
-            this.e21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e21.ForeColor = System.Drawing.Color.Red;
-            this.e21.Location = new System.Drawing.Point(188, 257);
-            this.e21.Multiline = true;
-            this.e21.Name = "e21";
-            this.e21.Size = new System.Drawing.Size(50, 50);
-            this.e21.TabIndex = 1;
-            this.e21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i12
-            // 
-            this.i12.BackColor = System.Drawing.Color.Silver;
-            this.i12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i12.ForeColor = System.Drawing.Color.Red;
-            this.i12.Location = new System.Drawing.Point(427, 388);
-            this.i12.Multiline = true;
-            this.i12.Name = "i12";
-            this.i12.Size = new System.Drawing.Size(50, 50);
-            this.i12.TabIndex = 1;
-            this.i12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a31
-            // 
-            this.a31.BackColor = System.Drawing.Color.Silver;
-            this.a31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a31.ForeColor = System.Drawing.Color.Red;
-            this.a31.Location = new System.Drawing.Point(6, 131);
-            this.a31.Multiline = true;
-            this.a31.Name = "a31";
-            this.a31.Size = new System.Drawing.Size(50, 50);
-            this.a31.TabIndex = 1;
-            this.a31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f12
-            // 
-            this.f12.BackColor = System.Drawing.Color.Silver;
-            this.f12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f12.ForeColor = System.Drawing.Color.Red;
-            this.f12.Location = new System.Drawing.Point(427, 201);
-            this.f12.Multiline = true;
-            this.f12.Name = "f12";
-            this.f12.Size = new System.Drawing.Size(50, 50);
-            this.f12.TabIndex = 1;
-            this.f12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g13
-            // 
-            this.g13.BackColor = System.Drawing.Color.Silver;
-            this.g13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g13.ForeColor = System.Drawing.Color.Red;
-            this.g13.Location = new System.Drawing.Point(118, 388);
-            this.g13.Multiline = true;
-            this.g13.Name = "g13";
-            this.g13.Size = new System.Drawing.Size(50, 50);
-            this.g13.TabIndex = 1;
-            this.g13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b21
-            // 
-            this.b21.BackColor = System.Drawing.Color.Silver;
-            this.b21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b21.ForeColor = System.Drawing.Color.Red;
-            this.b21.Location = new System.Drawing.Point(188, 75);
-            this.b21.Multiline = true;
-            this.b21.Name = "b21";
-            this.b21.Size = new System.Drawing.Size(50, 50);
-            this.b21.TabIndex = 1;
-            this.b21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d13
-            // 
-            this.d13.BackColor = System.Drawing.Color.Silver;
-            this.d13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d13.ForeColor = System.Drawing.Color.Red;
-            this.d13.Location = new System.Drawing.Point(118, 201);
-            this.d13.Multiline = true;
-            this.d13.Name = "d13";
-            this.d13.Size = new System.Drawing.Size(50, 50);
-            this.d13.TabIndex = 1;
-            this.d13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h12
-            // 
-            this.h12.BackColor = System.Drawing.Color.Silver;
-            this.h12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h12.ForeColor = System.Drawing.Color.Red;
-            this.h12.Location = new System.Drawing.Point(244, 388);
-            this.h12.Multiline = true;
-            this.h12.Name = "h12";
-            this.h12.Size = new System.Drawing.Size(50, 50);
-            this.h12.TabIndex = 1;
-            this.h12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c12
-            // 
-            this.c12.BackColor = System.Drawing.Color.Silver;
-            this.c12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c12.ForeColor = System.Drawing.Color.Red;
-            this.c12.Location = new System.Drawing.Point(427, 19);
-            this.c12.Multiline = true;
-            this.c12.Name = "c12";
-            this.c12.Size = new System.Drawing.Size(50, 50);
-            this.c12.TabIndex = 1;
-            this.c12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e12
-            // 
-            this.e12.BackColor = System.Drawing.Color.Silver;
-            this.e12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e12.ForeColor = System.Drawing.Color.Red;
-            this.e12.Location = new System.Drawing.Point(244, 201);
-            this.e12.Multiline = true;
-            this.e12.Name = "e12";
-            this.e12.Size = new System.Drawing.Size(50, 50);
-            this.e12.TabIndex = 1;
-            this.e12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // i11
-            // 
-            this.i11.BackColor = System.Drawing.Color.Silver;
-            this.i11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i11.ForeColor = System.Drawing.Color.Red;
-            this.i11.Location = new System.Drawing.Point(371, 388);
-            this.i11.Multiline = true;
-            this.i11.Name = "i11";
-            this.i11.Size = new System.Drawing.Size(50, 50);
-            this.i11.TabIndex = 1;
-            this.i11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a13
-            // 
-            this.a13.BackColor = System.Drawing.Color.Silver;
-            this.a13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a13.ForeColor = System.Drawing.Color.Red;
-            this.a13.Location = new System.Drawing.Point(118, 19);
-            this.a13.Multiline = true;
-            this.a13.Name = "a13";
-            this.a13.Size = new System.Drawing.Size(50, 50);
-            this.a13.TabIndex = 1;
-            this.a13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // f11
-            // 
-            this.f11.BackColor = System.Drawing.Color.Silver;
-            this.f11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f11.ForeColor = System.Drawing.Color.Red;
-            this.f11.Location = new System.Drawing.Point(371, 201);
-            this.f11.Multiline = true;
-            this.f11.Name = "f11";
-            this.f11.Size = new System.Drawing.Size(50, 50);
-            this.f11.TabIndex = 1;
-            this.f11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g21
-            // 
-            this.g21.BackColor = System.Drawing.Color.Silver;
-            this.g21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g21.ForeColor = System.Drawing.Color.Red;
-            this.g21.Location = new System.Drawing.Point(6, 444);
-            this.g21.Multiline = true;
-            this.g21.Name = "g21";
-            this.g21.Size = new System.Drawing.Size(50, 50);
-            this.g21.TabIndex = 1;
-            this.g21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b12
-            // 
-            this.b12.BackColor = System.Drawing.Color.Silver;
-            this.b12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b12.ForeColor = System.Drawing.Color.Red;
-            this.b12.Location = new System.Drawing.Point(244, 19);
-            this.b12.Multiline = true;
-            this.b12.Name = "b12";
-            this.b12.Size = new System.Drawing.Size(50, 50);
-            this.b12.TabIndex = 1;
-            this.b12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d21
-            // 
-            this.d21.BackColor = System.Drawing.Color.Silver;
-            this.d21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d21.ForeColor = System.Drawing.Color.Red;
-            this.d21.Location = new System.Drawing.Point(6, 257);
-            this.d21.Multiline = true;
-            this.d21.Name = "d21";
-            this.d21.Size = new System.Drawing.Size(50, 50);
-            this.d21.TabIndex = 1;
-            this.d21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // h11
-            // 
-            this.h11.BackColor = System.Drawing.Color.Silver;
-            this.h11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h11.ForeColor = System.Drawing.Color.Red;
-            this.h11.Location = new System.Drawing.Point(188, 388);
-            this.h11.Multiline = true;
-            this.h11.Name = "h11";
-            this.h11.Size = new System.Drawing.Size(50, 50);
-            this.h11.TabIndex = 1;
-            this.h11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // c11
-            // 
-            this.c11.BackColor = System.Drawing.Color.Silver;
-            this.c11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c11.ForeColor = System.Drawing.Color.Red;
-            this.c11.Location = new System.Drawing.Point(371, 19);
-            this.c11.Multiline = true;
-            this.c11.Name = "c11";
-            this.c11.Size = new System.Drawing.Size(50, 50);
-            this.c11.TabIndex = 1;
-            this.c11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // e11
-            // 
-            this.e11.BackColor = System.Drawing.Color.Silver;
-            this.e11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e11.ForeColor = System.Drawing.Color.Red;
-            this.e11.Location = new System.Drawing.Point(188, 201);
-            this.e11.Multiline = true;
-            this.e11.Name = "e11";
-            this.e11.Size = new System.Drawing.Size(50, 50);
-            this.e11.TabIndex = 1;
-            this.e11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g12
-            // 
-            this.g12.BackColor = System.Drawing.Color.Silver;
-            this.g12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g12.ForeColor = System.Drawing.Color.Red;
-            this.g12.Location = new System.Drawing.Point(62, 388);
-            this.g12.Multiline = true;
-            this.g12.Name = "g12";
-            this.g12.Size = new System.Drawing.Size(50, 50);
-            this.g12.TabIndex = 1;
-            this.g12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a21
-            // 
-            this.a21.BackColor = System.Drawing.Color.Silver;
-            this.a21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a21.ForeColor = System.Drawing.Color.Red;
-            this.a21.Location = new System.Drawing.Point(6, 75);
-            this.a21.Multiline = true;
-            this.a21.Name = "a21";
-            this.a21.Size = new System.Drawing.Size(50, 50);
-            this.a21.TabIndex = 1;
-            this.a21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d12
-            // 
-            this.d12.BackColor = System.Drawing.Color.Silver;
-            this.d12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d12.ForeColor = System.Drawing.Color.Red;
-            this.d12.Location = new System.Drawing.Point(62, 201);
-            this.d12.Multiline = true;
-            this.d12.Name = "d12";
-            this.d12.Size = new System.Drawing.Size(50, 50);
-            this.d12.TabIndex = 1;
-            this.d12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // g11
-            // 
-            this.g11.BackColor = System.Drawing.Color.Silver;
-            this.g11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g11.ForeColor = System.Drawing.Color.Red;
-            this.g11.Location = new System.Drawing.Point(6, 388);
-            this.g11.Multiline = true;
-            this.g11.Name = "g11";
-            this.g11.Size = new System.Drawing.Size(50, 50);
-            this.g11.TabIndex = 1;
-            this.g11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // b11
-            // 
-            this.b11.BackColor = System.Drawing.Color.Silver;
-            this.b11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b11.ForeColor = System.Drawing.Color.Red;
-            this.b11.Location = new System.Drawing.Point(188, 19);
-            this.b11.Multiline = true;
-            this.b11.Name = "b11";
-            this.b11.Size = new System.Drawing.Size(50, 50);
-            this.b11.TabIndex = 1;
-            this.b11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // d11
-            // 
-            this.d11.BackColor = System.Drawing.Color.Silver;
-            this.d11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d11.ForeColor = System.Drawing.Color.Red;
-            this.d11.Location = new System.Drawing.Point(6, 201);
-            this.d11.Multiline = true;
-            this.d11.Name = "d11";
-            this.d11.Size = new System.Drawing.Size(50, 50);
-            this.d11.TabIndex = 1;
-            this.d11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // a12
-            // 
-            this.a12.BackColor = System.Drawing.Color.Silver;
-            this.a12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a12.ForeColor = System.Drawing.Color.Red;
-            this.a12.Location = new System.Drawing.Point(62, 19);
-            this.a12.Multiline = true;
-            this.a12.Name = "a12";
-            this.a12.Size = new System.Drawing.Size(50, 50);
-            this.a12.TabIndex = 1;
-            this.a12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // input
+            // 
+            this.input.BackColor = System.Drawing.Color.Black;
+            this.input.Controls.Add(this.textBox81);
+            this.input.Controls.Add(this.textBox54);
+            this.input.Controls.Add(this.textBox27);
+            this.input.Controls.Add(this.textBox80);
+            this.input.Controls.Add(this.textBox53);
+            this.input.Controls.Add(this.textBox18);
+            this.input.Controls.Add(this.textBox79);
+            this.input.Controls.Add(this.textBox52);
+            this.input.Controls.Add(this.textBox9);
+            this.input.Controls.Add(this.textBox78);
+            this.input.Controls.Add(this.textBox51);
+            this.input.Controls.Add(this.textBox26);
+            this.input.Controls.Add(this.textBox77);
+            this.input.Controls.Add(this.textBox50);
+            this.input.Controls.Add(this.textBox17);
+            this.input.Controls.Add(this.textBox76);
+            this.input.Controls.Add(this.textBox49);
+            this.input.Controls.Add(this.textBox8);
+            this.input.Controls.Add(this.textBox75);
+            this.input.Controls.Add(this.textBox48);
+            this.input.Controls.Add(this.textBox74);
+            this.input.Controls.Add(this.textBox47);
+            this.input.Controls.Add(this.textBox25);
+            this.input.Controls.Add(this.textBox73);
+            this.input.Controls.Add(this.textBox46);
+            this.input.Controls.Add(this.textBox24);
+            this.input.Controls.Add(this.textBox72);
+            this.input.Controls.Add(this.textBox45);
+            this.input.Controls.Add(this.textBox16);
+            this.input.Controls.Add(this.textBox71);
+            this.input.Controls.Add(this.textBox44);
+            this.input.Controls.Add(this.textBox15);
+            this.input.Controls.Add(this.textBox70);
+            this.input.Controls.Add(this.textBox43);
+            this.input.Controls.Add(this.textBox69);
+            this.input.Controls.Add(this.textBox23);
+            this.input.Controls.Add(this.textBox42);
+            this.input.Controls.Add(this.textBox68);
+            this.input.Controls.Add(this.textBox6);
+            this.input.Controls.Add(this.textBox41);
+            this.input.Controls.Add(this.textBox67);
+            this.input.Controls.Add(this.textBox14);
+            this.input.Controls.Add(this.textBox40);
+            this.input.Controls.Add(this.textBox66);
+            this.input.Controls.Add(this.textBox22);
+            this.input.Controls.Add(this.textBox39);
+            this.input.Controls.Add(this.textBox65);
+            this.input.Controls.Add(this.textBox5);
+            this.input.Controls.Add(this.textBox38);
+            this.input.Controls.Add(this.textBox64);
+            this.input.Controls.Add(this.textBox13);
+            this.input.Controls.Add(this.textBox37);
+            this.input.Controls.Add(this.textBox63);
+            this.input.Controls.Add(this.textBox21);
+            this.input.Controls.Add(this.textBox36);
+            this.input.Controls.Add(this.textBox62);
+            this.input.Controls.Add(this.textBox7);
+            this.input.Controls.Add(this.textBox35);
+            this.input.Controls.Add(this.textBox61);
+            this.input.Controls.Add(this.textBox12);
+            this.input.Controls.Add(this.textBox34);
+            this.input.Controls.Add(this.textBox60);
+            this.input.Controls.Add(this.textBox20);
+            this.input.Controls.Add(this.textBox33);
+            this.input.Controls.Add(this.textBox59);
+            this.input.Controls.Add(this.textBox3);
+            this.input.Controls.Add(this.textBox32);
+            this.input.Controls.Add(this.textBox58);
+            this.input.Controls.Add(this.textBox11);
+            this.input.Controls.Add(this.textBox31);
+            this.input.Controls.Add(this.textBox57);
+            this.input.Controls.Add(this.textBox19);
+            this.input.Controls.Add(this.textBox30);
+            this.input.Controls.Add(this.textBox56);
+            this.input.Controls.Add(this.textBox4);
+            this.input.Controls.Add(this.textBox29);
+            this.input.Controls.Add(this.textBox55);
+            this.input.Controls.Add(this.textBox10);
+            this.input.Controls.Add(this.textBox28);
+            this.input.Controls.Add(this.textBox2);
+            this.input.Controls.Add(this.textBox1);
+            this.input.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.input.Location = new System.Drawing.Point(17, 145);
+            this.input.Name = "input";
+            this.input.Size = new System.Drawing.Size(543, 561);
+            this.input.TabIndex = 2;
+            this.input.TabStop = false;
+            this.input.Text = "Input";
+            // 
+            // textBox81
+            // 
+            this.textBox81.BackColor = System.Drawing.Color.Silver;
+            this.textBox81.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox81.ForeColor = System.Drawing.Color.Red;
+            this.textBox81.Location = new System.Drawing.Point(6, 19);
+            this.textBox81.Multiline = true;
+            this.textBox81.Name = "textBox81";
+            this.textBox81.Size = new System.Drawing.Size(50, 50);
+            this.textBox81.TabIndex = 0;
+            this.textBox81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox54
+            // 
+            this.textBox54.BackColor = System.Drawing.Color.Silver;
+            this.textBox54.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox54.ForeColor = System.Drawing.Color.Red;
+            this.textBox54.Location = new System.Drawing.Point(62, 19);
+            this.textBox54.Multiline = true;
+            this.textBox54.Name = "textBox54";
+            this.textBox54.Size = new System.Drawing.Size(50, 50);
+            this.textBox54.TabIndex = 0;
+            this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox27
+            // 
+            this.textBox27.BackColor = System.Drawing.Color.Silver;
+            this.textBox27.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox27.ForeColor = System.Drawing.Color.Red;
+            this.textBox27.Location = new System.Drawing.Point(118, 19);
+            this.textBox27.Multiline = true;
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(50, 50);
+            this.textBox27.TabIndex = 0;
+            this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox80
+            // 
+            this.textBox80.BackColor = System.Drawing.Color.Silver;
+            this.textBox80.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox80.ForeColor = System.Drawing.Color.Red;
+            this.textBox80.Location = new System.Drawing.Point(190, 19);
+            this.textBox80.Multiline = true;
+            this.textBox80.Name = "textBox80";
+            this.textBox80.Size = new System.Drawing.Size(50, 50);
+            this.textBox80.TabIndex = 0;
+            this.textBox80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox53
+            // 
+            this.textBox53.BackColor = System.Drawing.Color.Silver;
+            this.textBox53.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox53.ForeColor = System.Drawing.Color.Red;
+            this.textBox53.Location = new System.Drawing.Point(246, 19);
+            this.textBox53.Multiline = true;
+            this.textBox53.Name = "textBox53";
+            this.textBox53.Size = new System.Drawing.Size(50, 50);
+            this.textBox53.TabIndex = 0;
+            this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox18
+            // 
+            this.textBox18.BackColor = System.Drawing.Color.Silver;
+            this.textBox18.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.ForeColor = System.Drawing.Color.Red;
+            this.textBox18.Location = new System.Drawing.Point(302, 19);
+            this.textBox18.Multiline = true;
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(50, 50);
+            this.textBox18.TabIndex = 0;
+            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox79
+            // 
+            this.textBox79.BackColor = System.Drawing.Color.Silver;
+            this.textBox79.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox79.ForeColor = System.Drawing.Color.Red;
+            this.textBox79.Location = new System.Drawing.Point(375, 19);
+            this.textBox79.Multiline = true;
+            this.textBox79.Name = "textBox79";
+            this.textBox79.Size = new System.Drawing.Size(50, 50);
+            this.textBox79.TabIndex = 0;
+            this.textBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox52
+            // 
+            this.textBox52.BackColor = System.Drawing.Color.Silver;
+            this.textBox52.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox52.ForeColor = System.Drawing.Color.Red;
+            this.textBox52.Location = new System.Drawing.Point(431, 19);
+            this.textBox52.Multiline = true;
+            this.textBox52.Name = "textBox52";
+            this.textBox52.Size = new System.Drawing.Size(50, 50);
+            this.textBox52.TabIndex = 0;
+            this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox9
+            // 
+            this.textBox9.BackColor = System.Drawing.Color.Silver;
+            this.textBox9.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.ForeColor = System.Drawing.Color.Red;
+            this.textBox9.Location = new System.Drawing.Point(487, 19);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(50, 50);
+            this.textBox9.TabIndex = 0;
+            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox78
+            // 
+            this.textBox78.BackColor = System.Drawing.Color.Silver;
+            this.textBox78.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox78.ForeColor = System.Drawing.Color.Red;
+            this.textBox78.Location = new System.Drawing.Point(6, 75);
+            this.textBox78.Multiline = true;
+            this.textBox78.Name = "textBox78";
+            this.textBox78.Size = new System.Drawing.Size(50, 50);
+            this.textBox78.TabIndex = 0;
+            this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox51
+            // 
+            this.textBox51.BackColor = System.Drawing.Color.Silver;
+            this.textBox51.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox51.ForeColor = System.Drawing.Color.Red;
+            this.textBox51.Location = new System.Drawing.Point(62, 75);
+            this.textBox51.Multiline = true;
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(50, 50);
+            this.textBox51.TabIndex = 0;
+            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox26
+            // 
+            this.textBox26.BackColor = System.Drawing.Color.Silver;
+            this.textBox26.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox26.ForeColor = System.Drawing.Color.Red;
+            this.textBox26.Location = new System.Drawing.Point(118, 75);
+            this.textBox26.Multiline = true;
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(50, 50);
+            this.textBox26.TabIndex = 0;
+            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox77
+            // 
+            this.textBox77.BackColor = System.Drawing.Color.Silver;
+            this.textBox77.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox77.ForeColor = System.Drawing.Color.Red;
+            this.textBox77.Location = new System.Drawing.Point(190, 75);
+            this.textBox77.Multiline = true;
+            this.textBox77.Name = "textBox77";
+            this.textBox77.Size = new System.Drawing.Size(50, 50);
+            this.textBox77.TabIndex = 0;
+            this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox50
+            // 
+            this.textBox50.BackColor = System.Drawing.Color.Silver;
+            this.textBox50.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox50.ForeColor = System.Drawing.Color.Red;
+            this.textBox50.Location = new System.Drawing.Point(246, 75);
+            this.textBox50.Multiline = true;
+            this.textBox50.Name = "textBox50";
+            this.textBox50.Size = new System.Drawing.Size(50, 50);
+            this.textBox50.TabIndex = 0;
+            this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox17
+            // 
+            this.textBox17.BackColor = System.Drawing.Color.Silver;
+            this.textBox17.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.ForeColor = System.Drawing.Color.Red;
+            this.textBox17.Location = new System.Drawing.Point(302, 75);
+            this.textBox17.Multiline = true;
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(50, 50);
+            this.textBox17.TabIndex = 0;
+            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox76
+            // 
+            this.textBox76.BackColor = System.Drawing.Color.Silver;
+            this.textBox76.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox76.ForeColor = System.Drawing.Color.Red;
+            this.textBox76.Location = new System.Drawing.Point(375, 75);
+            this.textBox76.Multiline = true;
+            this.textBox76.Name = "textBox76";
+            this.textBox76.Size = new System.Drawing.Size(50, 50);
+            this.textBox76.TabIndex = 0;
+            this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox49
+            // 
+            this.textBox49.BackColor = System.Drawing.Color.Silver;
+            this.textBox49.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox49.ForeColor = System.Drawing.Color.Red;
+            this.textBox49.Location = new System.Drawing.Point(431, 75);
+            this.textBox49.Multiline = true;
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(50, 50);
+            this.textBox49.TabIndex = 0;
+            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.Silver;
+            this.textBox8.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.ForeColor = System.Drawing.Color.Red;
+            this.textBox8.Location = new System.Drawing.Point(487, 75);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(50, 50);
+            this.textBox8.TabIndex = 0;
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox75
+            // 
+            this.textBox75.BackColor = System.Drawing.Color.Silver;
+            this.textBox75.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox75.ForeColor = System.Drawing.Color.Red;
+            this.textBox75.Location = new System.Drawing.Point(6, 131);
+            this.textBox75.Multiline = true;
+            this.textBox75.Name = "textBox75";
+            this.textBox75.Size = new System.Drawing.Size(50, 50);
+            this.textBox75.TabIndex = 0;
+            this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox48
+            // 
+            this.textBox48.BackColor = System.Drawing.Color.Silver;
+            this.textBox48.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox48.ForeColor = System.Drawing.Color.Red;
+            this.textBox48.Location = new System.Drawing.Point(62, 131);
+            this.textBox48.Multiline = true;
+            this.textBox48.Name = "textBox48";
+            this.textBox48.Size = new System.Drawing.Size(50, 50);
+            this.textBox48.TabIndex = 0;
+            this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox74
+            // 
+            this.textBox74.BackColor = System.Drawing.Color.Silver;
+            this.textBox74.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox74.ForeColor = System.Drawing.Color.Red;
+            this.textBox74.Location = new System.Drawing.Point(118, 131);
+            this.textBox74.Multiline = true;
+            this.textBox74.Name = "textBox74";
+            this.textBox74.Size = new System.Drawing.Size(50, 50);
+            this.textBox74.TabIndex = 0;
+            this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox47
+            // 
+            this.textBox47.BackColor = System.Drawing.Color.Silver;
+            this.textBox47.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox47.ForeColor = System.Drawing.Color.Red;
+            this.textBox47.Location = new System.Drawing.Point(190, 131);
+            this.textBox47.Multiline = true;
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(50, 50);
+            this.textBox47.TabIndex = 0;
+            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox25
+            // 
+            this.textBox25.BackColor = System.Drawing.Color.Silver;
+            this.textBox25.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox25.ForeColor = System.Drawing.Color.Red;
+            this.textBox25.Location = new System.Drawing.Point(246, 131);
+            this.textBox25.Multiline = true;
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(50, 50);
+            this.textBox25.TabIndex = 0;
+            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox73
+            // 
+            this.textBox73.BackColor = System.Drawing.Color.Silver;
+            this.textBox73.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox73.ForeColor = System.Drawing.Color.Red;
+            this.textBox73.Location = new System.Drawing.Point(302, 131);
+            this.textBox73.Multiline = true;
+            this.textBox73.Name = "textBox73";
+            this.textBox73.Size = new System.Drawing.Size(50, 50);
+            this.textBox73.TabIndex = 0;
+            this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox46
+            // 
+            this.textBox46.BackColor = System.Drawing.Color.Silver;
+            this.textBox46.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox46.ForeColor = System.Drawing.Color.Red;
+            this.textBox46.Location = new System.Drawing.Point(375, 131);
+            this.textBox46.Multiline = true;
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(50, 50);
+            this.textBox46.TabIndex = 0;
+            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox24
+            // 
+            this.textBox24.BackColor = System.Drawing.Color.Silver;
+            this.textBox24.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.ForeColor = System.Drawing.Color.Red;
+            this.textBox24.Location = new System.Drawing.Point(431, 131);
+            this.textBox24.Multiline = true;
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(50, 50);
+            this.textBox24.TabIndex = 0;
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox72
+            // 
+            this.textBox72.BackColor = System.Drawing.Color.Silver;
+            this.textBox72.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox72.ForeColor = System.Drawing.Color.Red;
+            this.textBox72.Location = new System.Drawing.Point(487, 131);
+            this.textBox72.Multiline = true;
+            this.textBox72.Name = "textBox72";
+            this.textBox72.Size = new System.Drawing.Size(50, 50);
+            this.textBox72.TabIndex = 0;
+            this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox45
+            // 
+            this.textBox45.BackColor = System.Drawing.Color.Silver;
+            this.textBox45.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox45.ForeColor = System.Drawing.Color.Red;
+            this.textBox45.Location = new System.Drawing.Point(6, 206);
+            this.textBox45.Multiline = true;
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(50, 50);
+            this.textBox45.TabIndex = 0;
+            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.Color.Silver;
+            this.textBox16.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.ForeColor = System.Drawing.Color.Red;
+            this.textBox16.Location = new System.Drawing.Point(62, 206);
+            this.textBox16.Multiline = true;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(50, 50);
+            this.textBox16.TabIndex = 0;
+            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox71
+            // 
+            this.textBox71.BackColor = System.Drawing.Color.Silver;
+            this.textBox71.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox71.ForeColor = System.Drawing.Color.Red;
+            this.textBox71.Location = new System.Drawing.Point(118, 206);
+            this.textBox71.Multiline = true;
+            this.textBox71.Name = "textBox71";
+            this.textBox71.Size = new System.Drawing.Size(50, 50);
+            this.textBox71.TabIndex = 0;
+            this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox44
+            // 
+            this.textBox44.BackColor = System.Drawing.Color.Silver;
+            this.textBox44.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox44.ForeColor = System.Drawing.Color.Red;
+            this.textBox44.Location = new System.Drawing.Point(190, 206);
+            this.textBox44.Multiline = true;
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(50, 50);
+            this.textBox44.TabIndex = 0;
+            this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox15
+            // 
+            this.textBox15.BackColor = System.Drawing.Color.Silver;
+            this.textBox15.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.ForeColor = System.Drawing.Color.Red;
+            this.textBox15.Location = new System.Drawing.Point(246, 206);
+            this.textBox15.Multiline = true;
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(50, 50);
+            this.textBox15.TabIndex = 0;
+            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox70
+            // 
+            this.textBox70.BackColor = System.Drawing.Color.Silver;
+            this.textBox70.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox70.ForeColor = System.Drawing.Color.Red;
+            this.textBox70.Location = new System.Drawing.Point(302, 206);
+            this.textBox70.Multiline = true;
+            this.textBox70.Name = "textBox70";
+            this.textBox70.Size = new System.Drawing.Size(50, 50);
+            this.textBox70.TabIndex = 0;
+            this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox43
+            // 
+            this.textBox43.BackColor = System.Drawing.Color.Silver;
+            this.textBox43.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox43.ForeColor = System.Drawing.Color.Red;
+            this.textBox43.Location = new System.Drawing.Point(375, 206);
+            this.textBox43.Multiline = true;
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(50, 50);
+            this.textBox43.TabIndex = 0;
+            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox69
+            // 
+            this.textBox69.BackColor = System.Drawing.Color.Silver;
+            this.textBox69.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox69.ForeColor = System.Drawing.Color.Red;
+            this.textBox69.Location = new System.Drawing.Point(431, 206);
+            this.textBox69.Multiline = true;
+            this.textBox69.Name = "textBox69";
+            this.textBox69.Size = new System.Drawing.Size(50, 50);
+            this.textBox69.TabIndex = 0;
+            this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox23
+            // 
+            this.textBox23.BackColor = System.Drawing.Color.Silver;
+            this.textBox23.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.ForeColor = System.Drawing.Color.Red;
+            this.textBox23.Location = new System.Drawing.Point(487, 206);
+            this.textBox23.Multiline = true;
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(50, 50);
+            this.textBox23.TabIndex = 0;
+            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox42
+            // 
+            this.textBox42.BackColor = System.Drawing.Color.Silver;
+            this.textBox42.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.ForeColor = System.Drawing.Color.Red;
+            this.textBox42.Location = new System.Drawing.Point(6, 262);
+            this.textBox42.Multiline = true;
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(50, 50);
+            this.textBox42.TabIndex = 0;
+            this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox68
+            // 
+            this.textBox68.BackColor = System.Drawing.Color.Silver;
+            this.textBox68.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox68.ForeColor = System.Drawing.Color.Red;
+            this.textBox68.Location = new System.Drawing.Point(62, 262);
+            this.textBox68.Multiline = true;
+            this.textBox68.Name = "textBox68";
+            this.textBox68.Size = new System.Drawing.Size(50, 50);
+            this.textBox68.TabIndex = 0;
+            this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.Silver;
+            this.textBox6.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.Color.Red;
+            this.textBox6.Location = new System.Drawing.Point(118, 262);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(50, 50);
+            this.textBox6.TabIndex = 0;
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox41
+            // 
+            this.textBox41.BackColor = System.Drawing.Color.Silver;
+            this.textBox41.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.ForeColor = System.Drawing.Color.Red;
+            this.textBox41.Location = new System.Drawing.Point(190, 262);
+            this.textBox41.Multiline = true;
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(50, 50);
+            this.textBox41.TabIndex = 0;
+            this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox67
+            // 
+            this.textBox67.BackColor = System.Drawing.Color.Silver;
+            this.textBox67.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox67.ForeColor = System.Drawing.Color.Red;
+            this.textBox67.Location = new System.Drawing.Point(246, 262);
+            this.textBox67.Multiline = true;
+            this.textBox67.Name = "textBox67";
+            this.textBox67.Size = new System.Drawing.Size(50, 50);
+            this.textBox67.TabIndex = 0;
+            this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.Color.Silver;
+            this.textBox14.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.ForeColor = System.Drawing.Color.Red;
+            this.textBox14.Location = new System.Drawing.Point(302, 262);
+            this.textBox14.Multiline = true;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(50, 50);
+            this.textBox14.TabIndex = 0;
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox40
+            // 
+            this.textBox40.BackColor = System.Drawing.Color.Silver;
+            this.textBox40.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.ForeColor = System.Drawing.Color.Red;
+            this.textBox40.Location = new System.Drawing.Point(375, 262);
+            this.textBox40.Multiline = true;
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(50, 50);
+            this.textBox40.TabIndex = 0;
+            this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox66
+            // 
+            this.textBox66.BackColor = System.Drawing.Color.Silver;
+            this.textBox66.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox66.ForeColor = System.Drawing.Color.Red;
+            this.textBox66.Location = new System.Drawing.Point(431, 262);
+            this.textBox66.Multiline = true;
+            this.textBox66.Name = "textBox66";
+            this.textBox66.Size = new System.Drawing.Size(50, 50);
+            this.textBox66.TabIndex = 0;
+            this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox22
+            // 
+            this.textBox22.BackColor = System.Drawing.Color.Silver;
+            this.textBox22.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.ForeColor = System.Drawing.Color.Red;
+            this.textBox22.Location = new System.Drawing.Point(487, 262);
+            this.textBox22.Multiline = true;
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(50, 50);
+            this.textBox22.TabIndex = 0;
+            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox39
+            // 
+            this.textBox39.BackColor = System.Drawing.Color.Silver;
+            this.textBox39.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox39.ForeColor = System.Drawing.Color.Red;
+            this.textBox39.Location = new System.Drawing.Point(6, 318);
+            this.textBox39.Multiline = true;
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(50, 50);
+            this.textBox39.TabIndex = 0;
+            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox65
+            // 
+            this.textBox65.BackColor = System.Drawing.Color.Silver;
+            this.textBox65.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox65.ForeColor = System.Drawing.Color.Red;
+            this.textBox65.Location = new System.Drawing.Point(62, 318);
+            this.textBox65.Multiline = true;
+            this.textBox65.Name = "textBox65";
+            this.textBox65.Size = new System.Drawing.Size(50, 50);
+            this.textBox65.TabIndex = 0;
+            this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.Silver;
+            this.textBox5.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.Red;
+            this.textBox5.Location = new System.Drawing.Point(118, 318);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(50, 50);
+            this.textBox5.TabIndex = 0;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox38
+            // 
+            this.textBox38.BackColor = System.Drawing.Color.Silver;
+            this.textBox38.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox38.ForeColor = System.Drawing.Color.Red;
+            this.textBox38.Location = new System.Drawing.Point(190, 318);
+            this.textBox38.Multiline = true;
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(50, 50);
+            this.textBox38.TabIndex = 0;
+            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox64
+            // 
+            this.textBox64.BackColor = System.Drawing.Color.Silver;
+            this.textBox64.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox64.ForeColor = System.Drawing.Color.Red;
+            this.textBox64.Location = new System.Drawing.Point(246, 318);
+            this.textBox64.Multiline = true;
+            this.textBox64.Name = "textBox64";
+            this.textBox64.Size = new System.Drawing.Size(50, 50);
+            this.textBox64.TabIndex = 0;
+            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox13
+            // 
+            this.textBox13.BackColor = System.Drawing.Color.Silver;
+            this.textBox13.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.ForeColor = System.Drawing.Color.Red;
+            this.textBox13.Location = new System.Drawing.Point(302, 318);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(50, 50);
+            this.textBox13.TabIndex = 0;
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox37
+            // 
+            this.textBox37.BackColor = System.Drawing.Color.Silver;
+            this.textBox37.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.ForeColor = System.Drawing.Color.Red;
+            this.textBox37.Location = new System.Drawing.Point(375, 318);
+            this.textBox37.Multiline = true;
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(50, 50);
+            this.textBox37.TabIndex = 0;
+            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox63
+            // 
+            this.textBox63.BackColor = System.Drawing.Color.Silver;
+            this.textBox63.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox63.ForeColor = System.Drawing.Color.Red;
+            this.textBox63.Location = new System.Drawing.Point(431, 318);
+            this.textBox63.Multiline = true;
+            this.textBox63.Name = "textBox63";
+            this.textBox63.Size = new System.Drawing.Size(50, 50);
+            this.textBox63.TabIndex = 0;
+            this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox21
+            // 
+            this.textBox21.BackColor = System.Drawing.Color.Silver;
+            this.textBox21.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.ForeColor = System.Drawing.Color.Red;
+            this.textBox21.Location = new System.Drawing.Point(487, 318);
+            this.textBox21.Multiline = true;
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(50, 50);
+            this.textBox21.TabIndex = 0;
+            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox36
+            // 
+            this.textBox36.BackColor = System.Drawing.Color.Silver;
+            this.textBox36.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.ForeColor = System.Drawing.Color.Red;
+            this.textBox36.Location = new System.Drawing.Point(6, 390);
+            this.textBox36.Multiline = true;
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(50, 50);
+            this.textBox36.TabIndex = 0;
+            this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox62
+            // 
+            this.textBox62.BackColor = System.Drawing.Color.Silver;
+            this.textBox62.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox62.ForeColor = System.Drawing.Color.Red;
+            this.textBox62.Location = new System.Drawing.Point(62, 390);
+            this.textBox62.Multiline = true;
+            this.textBox62.Name = "textBox62";
+            this.textBox62.Size = new System.Drawing.Size(50, 50);
+            this.textBox62.TabIndex = 0;
+            this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.Silver;
+            this.textBox7.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.ForeColor = System.Drawing.Color.Red;
+            this.textBox7.Location = new System.Drawing.Point(118, 390);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(50, 50);
+            this.textBox7.TabIndex = 0;
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox35
+            // 
+            this.textBox35.BackColor = System.Drawing.Color.Silver;
+            this.textBox35.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox35.ForeColor = System.Drawing.Color.Red;
+            this.textBox35.Location = new System.Drawing.Point(190, 390);
+            this.textBox35.Multiline = true;
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(50, 50);
+            this.textBox35.TabIndex = 0;
+            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox61
+            // 
+            this.textBox61.BackColor = System.Drawing.Color.Silver;
+            this.textBox61.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox61.ForeColor = System.Drawing.Color.Red;
+            this.textBox61.Location = new System.Drawing.Point(246, 390);
+            this.textBox61.Multiline = true;
+            this.textBox61.Name = "textBox61";
+            this.textBox61.Size = new System.Drawing.Size(50, 50);
+            this.textBox61.TabIndex = 0;
+            this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox12
+            // 
+            this.textBox12.BackColor = System.Drawing.Color.Silver;
+            this.textBox12.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.ForeColor = System.Drawing.Color.Red;
+            this.textBox12.Location = new System.Drawing.Point(302, 390);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(50, 50);
+            this.textBox12.TabIndex = 0;
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox34
+            // 
+            this.textBox34.BackColor = System.Drawing.Color.Silver;
+            this.textBox34.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox34.ForeColor = System.Drawing.Color.Red;
+            this.textBox34.Location = new System.Drawing.Point(375, 390);
+            this.textBox34.Multiline = true;
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(50, 50);
+            this.textBox34.TabIndex = 0;
+            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox60
+            // 
+            this.textBox60.BackColor = System.Drawing.Color.Silver;
+            this.textBox60.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox60.ForeColor = System.Drawing.Color.Red;
+            this.textBox60.Location = new System.Drawing.Point(431, 390);
+            this.textBox60.Multiline = true;
+            this.textBox60.Name = "textBox60";
+            this.textBox60.Size = new System.Drawing.Size(50, 50);
+            this.textBox60.TabIndex = 0;
+            this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox20
+            // 
+            this.textBox20.BackColor = System.Drawing.Color.Silver;
+            this.textBox20.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox20.ForeColor = System.Drawing.Color.Red;
+            this.textBox20.Location = new System.Drawing.Point(487, 390);
+            this.textBox20.Multiline = true;
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(50, 50);
+            this.textBox20.TabIndex = 0;
+            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox33
+            // 
+            this.textBox33.BackColor = System.Drawing.Color.Silver;
+            this.textBox33.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox33.ForeColor = System.Drawing.Color.Red;
+            this.textBox33.Location = new System.Drawing.Point(6, 446);
+            this.textBox33.Multiline = true;
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(50, 50);
+            this.textBox33.TabIndex = 0;
+            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox59
+            // 
+            this.textBox59.BackColor = System.Drawing.Color.Silver;
+            this.textBox59.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox59.ForeColor = System.Drawing.Color.Red;
+            this.textBox59.Location = new System.Drawing.Point(62, 446);
+            this.textBox59.Multiline = true;
+            this.textBox59.Name = "textBox59";
+            this.textBox59.Size = new System.Drawing.Size(50, 50);
+            this.textBox59.TabIndex = 0;
+            this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.Silver;
+            this.textBox3.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.Red;
+            this.textBox3.Location = new System.Drawing.Point(118, 446);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(50, 50);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox32
+            // 
+            this.textBox32.BackColor = System.Drawing.Color.Silver;
+            this.textBox32.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox32.ForeColor = System.Drawing.Color.Red;
+            this.textBox32.Location = new System.Drawing.Point(190, 446);
+            this.textBox32.Multiline = true;
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(50, 50);
+            this.textBox32.TabIndex = 0;
+            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox58
+            // 
+            this.textBox58.BackColor = System.Drawing.Color.Silver;
+            this.textBox58.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox58.ForeColor = System.Drawing.Color.Red;
+            this.textBox58.Location = new System.Drawing.Point(246, 446);
+            this.textBox58.Multiline = true;
+            this.textBox58.Name = "textBox58";
+            this.textBox58.Size = new System.Drawing.Size(50, 50);
+            this.textBox58.TabIndex = 0;
+            this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox11
+            // 
+            this.textBox11.BackColor = System.Drawing.Color.Silver;
+            this.textBox11.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.ForeColor = System.Drawing.Color.Red;
+            this.textBox11.Location = new System.Drawing.Point(302, 446);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(50, 50);
+            this.textBox11.TabIndex = 0;
+            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox31
+            // 
+            this.textBox31.BackColor = System.Drawing.Color.Silver;
+            this.textBox31.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox31.ForeColor = System.Drawing.Color.Red;
+            this.textBox31.Location = new System.Drawing.Point(375, 446);
+            this.textBox31.Multiline = true;
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(50, 50);
+            this.textBox31.TabIndex = 0;
+            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox57
+            // 
+            this.textBox57.BackColor = System.Drawing.Color.Silver;
+            this.textBox57.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox57.ForeColor = System.Drawing.Color.Red;
+            this.textBox57.Location = new System.Drawing.Point(431, 446);
+            this.textBox57.Multiline = true;
+            this.textBox57.Name = "textBox57";
+            this.textBox57.Size = new System.Drawing.Size(50, 50);
+            this.textBox57.TabIndex = 0;
+            this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox19
+            // 
+            this.textBox19.BackColor = System.Drawing.Color.Silver;
+            this.textBox19.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox19.ForeColor = System.Drawing.Color.Red;
+            this.textBox19.Location = new System.Drawing.Point(487, 446);
+            this.textBox19.Multiline = true;
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(50, 50);
+            this.textBox19.TabIndex = 0;
+            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox30
+            // 
+            this.textBox30.BackColor = System.Drawing.Color.Silver;
+            this.textBox30.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox30.ForeColor = System.Drawing.Color.Red;
+            this.textBox30.Location = new System.Drawing.Point(6, 502);
+            this.textBox30.Multiline = true;
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(50, 50);
+            this.textBox30.TabIndex = 0;
+            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox56
+            // 
+            this.textBox56.BackColor = System.Drawing.Color.Silver;
+            this.textBox56.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox56.ForeColor = System.Drawing.Color.Red;
+            this.textBox56.Location = new System.Drawing.Point(62, 502);
+            this.textBox56.Multiline = true;
+            this.textBox56.Name = "textBox56";
+            this.textBox56.Size = new System.Drawing.Size(50, 50);
+            this.textBox56.TabIndex = 0;
+            this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.Silver;
+            this.textBox4.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.Red;
+            this.textBox4.Location = new System.Drawing.Point(118, 502);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(50, 50);
+            this.textBox4.TabIndex = 0;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox29
+            // 
+            this.textBox29.BackColor = System.Drawing.Color.Silver;
+            this.textBox29.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox29.ForeColor = System.Drawing.Color.Red;
+            this.textBox29.Location = new System.Drawing.Point(190, 502);
+            this.textBox29.Multiline = true;
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(50, 50);
+            this.textBox29.TabIndex = 0;
+            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox55
+            // 
+            this.textBox55.BackColor = System.Drawing.Color.Silver;
+            this.textBox55.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox55.ForeColor = System.Drawing.Color.Red;
+            this.textBox55.Location = new System.Drawing.Point(246, 502);
+            this.textBox55.Multiline = true;
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(50, 50);
+            this.textBox55.TabIndex = 0;
+            this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox10
+            // 
+            this.textBox10.BackColor = System.Drawing.Color.Silver;
+            this.textBox10.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.ForeColor = System.Drawing.Color.Red;
+            this.textBox10.Location = new System.Drawing.Point(302, 502);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(50, 50);
+            this.textBox10.TabIndex = 0;
+            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox28
+            // 
+            this.textBox28.BackColor = System.Drawing.Color.Silver;
+            this.textBox28.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox28.ForeColor = System.Drawing.Color.Red;
+            this.textBox28.Location = new System.Drawing.Point(375, 502);
+            this.textBox28.Multiline = true;
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(50, 50);
+            this.textBox28.TabIndex = 0;
+            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Silver;
+            this.textBox2.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.Red;
+            this.textBox2.Location = new System.Drawing.Point(431, 502);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(50, 50);
+            this.textBox2.TabIndex = 0;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Silver;
+            this.textBox1.Font = new System.Drawing.Font("Itim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Red;
+            this.textBox1.Location = new System.Drawing.Point(487, 502);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(50, 50);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -1312,6 +1312,7 @@
             this.solve_matrix.TabIndex = 0;
             this.solve_matrix.Text = "Solve";
             this.solve_matrix.UseVisualStyleBackColor = false;
+            this.solve_matrix.Click += new System.EventHandler(this.solve_matrix_Click);
             // 
             // groupBox4
             // 
@@ -1381,26 +1382,26 @@
             // solveToolStripMenuItem
             // 
             this.solveToolStripMenuItem.Name = "solveToolStripMenuItem";
-            this.solveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.solveToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.solveToolStripMenuItem.Text = "New";
             // 
             // checkToolStripMenuItem
             // 
             this.checkToolStripMenuItem.Name = "checkToolStripMenuItem";
-            this.checkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.checkToolStripMenuItem.Text = "Check";
             // 
             // solveToolStripMenuItem1
             // 
             this.solveToolStripMenuItem1.Name = "solveToolStripMenuItem1";
-            this.solveToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.solveToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.solveToolStripMenuItem1.Text = "Solve";
             this.solveToolStripMenuItem1.Click += new System.EventHandler(this.solveToolStripMenuItem1_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // aboutToolStripMenuItem
@@ -1441,7 +1442,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.input);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.title);
@@ -1454,8 +1455,8 @@
             this.Opacity = 0.95D;
             this.Text = "Sudoku Solver";
             this.TransparencyKey = System.Drawing.Color.Gray;
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.input.ResumeLayout(false);
+            this.input.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -1474,88 +1475,7 @@
         #endregion
 
         private System.Windows.Forms.Label title;
-        private System.Windows.Forms.TextBox a11;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox i33;
-        private System.Windows.Forms.TextBox h33;
-        private System.Windows.Forms.TextBox f33;
-        private System.Windows.Forms.TextBox e33;
-        private System.Windows.Forms.TextBox g33;
-        private System.Windows.Forms.TextBox c33;
-        private System.Windows.Forms.TextBox d33;
-        private System.Windows.Forms.TextBox i32;
-        private System.Windows.Forms.TextBox b33;
-        private System.Windows.Forms.TextBox f32;
-        private System.Windows.Forms.TextBox h32;
-        private System.Windows.Forms.TextBox a33;
-        private System.Windows.Forms.TextBox e32;
-        private System.Windows.Forms.TextBox g32;
-        private System.Windows.Forms.TextBox c32;
-        private System.Windows.Forms.TextBox d32;
-        private System.Windows.Forms.TextBox i23;
-        private System.Windows.Forms.TextBox b32;
-        private System.Windows.Forms.TextBox f23;
-        private System.Windows.Forms.TextBox i22;
-        private System.Windows.Forms.TextBox a32;
-        private System.Windows.Forms.TextBox f22;
-        private System.Windows.Forms.TextBox h23;
-        private System.Windows.Forms.TextBox c23;
-        private System.Windows.Forms.TextBox e23;
-        private System.Windows.Forms.TextBox h22;
-        private System.Windows.Forms.TextBox c22;
-        private System.Windows.Forms.TextBox e22;
-        private System.Windows.Forms.TextBox i31;
-        private System.Windows.Forms.TextBox b23;
-        private System.Windows.Forms.TextBox f31;
-        private System.Windows.Forms.TextBox g23;
-        private System.Windows.Forms.TextBox b22;
-        private System.Windows.Forms.TextBox d23;
-        private System.Windows.Forms.TextBox h31;
-        private System.Windows.Forms.TextBox c31;
-        private System.Windows.Forms.TextBox e31;
-        private System.Windows.Forms.TextBox i13;
-        private System.Windows.Forms.TextBox a23;
-        private System.Windows.Forms.TextBox f13;
-        private System.Windows.Forms.TextBox g22;
-        private System.Windows.Forms.TextBox b31;
-        private System.Windows.Forms.TextBox d22;
-        private System.Windows.Forms.TextBox h13;
-        private System.Windows.Forms.TextBox c13;
-        private System.Windows.Forms.TextBox e13;
-        private System.Windows.Forms.TextBox i21;
-        private System.Windows.Forms.TextBox a22;
-        private System.Windows.Forms.TextBox f21;
-        private System.Windows.Forms.TextBox g31;
-        private System.Windows.Forms.TextBox b13;
-        private System.Windows.Forms.TextBox d31;
-        private System.Windows.Forms.TextBox h21;
-        private System.Windows.Forms.TextBox c21;
-        private System.Windows.Forms.TextBox e21;
-        private System.Windows.Forms.TextBox i12;
-        private System.Windows.Forms.TextBox a31;
-        private System.Windows.Forms.TextBox f12;
-        private System.Windows.Forms.TextBox g13;
-        private System.Windows.Forms.TextBox b21;
-        private System.Windows.Forms.TextBox d13;
-        private System.Windows.Forms.TextBox h12;
-        private System.Windows.Forms.TextBox c12;
-        private System.Windows.Forms.TextBox e12;
-        private System.Windows.Forms.TextBox i11;
-        private System.Windows.Forms.TextBox a13;
-        private System.Windows.Forms.TextBox f11;
-        private System.Windows.Forms.TextBox g21;
-        private System.Windows.Forms.TextBox b12;
-        private System.Windows.Forms.TextBox d21;
-        private System.Windows.Forms.TextBox h11;
-        private System.Windows.Forms.TextBox c11;
-        private System.Windows.Forms.TextBox e11;
-        private System.Windows.Forms.TextBox g12;
-        private System.Windows.Forms.TextBox a21;
-        private System.Windows.Forms.TextBox d12;
-        private System.Windows.Forms.TextBox g11;
-        private System.Windows.Forms.TextBox b11;
-        private System.Windows.Forms.TextBox d11;
-        private System.Windows.Forms.TextBox a12;
+        private System.Windows.Forms.GroupBox input;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label3;
@@ -1578,6 +1498,87 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox81;
+        private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox80;
+        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox79;
+        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.TextBox textBox78;
+        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox77;
+        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox76;
+        private System.Windows.Forms.TextBox textBox49;
+        private System.Windows.Forms.TextBox textBox75;
+        private System.Windows.Forms.TextBox textBox48;
+        private System.Windows.Forms.TextBox textBox74;
+        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox73;
+        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox72;
+        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox71;
+        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox70;
+        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.TextBox textBox69;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.TextBox textBox68;
+        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox textBox67;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox textBox66;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox textBox65;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.TextBox textBox64;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.TextBox textBox63;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox textBox62;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox textBox61;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox textBox60;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox textBox59;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox58;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox textBox57;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox56;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox55;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox28;
     }
 }
 
