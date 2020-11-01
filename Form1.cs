@@ -193,12 +193,12 @@ namespace Sudoku_Solver
                     arr_read_file_tmp = fileContent.Split(' ');
                     foreach (Control element in input.Controls.OfType<TextBox>())
                     {
-                        if (arr_read_file_tmp[index].TrimEnd('\r', '\n') != "0")
+                        if (arr_read_file_tmp[index].Trim('\r', '\n') != "0")
                         {
-                            element.Text = arr_read_file_tmp[index];
+                            element.Text = arr_read_file_tmp[index].Trim('\r', '\n');
                             index++;
                         }    
-                        else if(arr_read_file_tmp[index].TrimEnd('\r', '\n') == "0")
+                        else if(arr_read_file_tmp[index].Trim('\r', '\n') == "0")
                         {
                             element.Text = "";
                             index++;
