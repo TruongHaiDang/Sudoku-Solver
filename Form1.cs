@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Sudoku_Solver
 {
@@ -136,10 +137,78 @@ namespace Sudoku_Solver
         
         private void Check_result_Click(object sender, EventArgs e)
         {
-
+            textBox81.Text = "5";
+            textBox54.Text = "3";
+            textBox53.Text = "7";
+            textBox78.Text = "6";
+            textBox77.Text = "1";
+            textBox50.Text = "9";
+            textBox17.Text = "5";
+            textBox48.Text = "9";
+            textBox74.Text = "8";
+            textBox24.Text = "6";
+            textBox45.Text = "8";
+            textBox15.Text = "6";
+            textBox23.Text = "3";
+            textBox42.Text = "4";
+            textBox41.Text = "8";
+            textBox14.Text = "3";
+            textBox22.Text = "1";
+            textBox39.Text = "7";
+            textBox64.Text = "2";
+            textBox21.Text = "6";
+            textBox62.Text = "6";
+            textBox34.Text = "2";
+            textBox60.Text = "8";
+            textBox32.Text = "4";
+            textBox58.Text = "1";
+            textBox11.Text = "9";
+            textBox19.Text = "5";
+            textBox55.Text = "8";
+            textBox2.Text = "7";
+            textBox1.Text = "9";
         }
 
         private void new_matrix_Click(object sender, EventArgs e)
+        {
+            var fileContent = string.Empty;
+            var filePath = string.Empty;
+            string[] arr_read_file_tmp = new string[81];
+            int index = 0;
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+           {
+                openFileDialog.InitialDirectory = "./";
+                openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                openFileDialog.FilterIndex = 1;
+                openFileDialog.RestoreDirectory = true;
+                openFileDialog.CheckFileExists = true;
+                if(openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    filePath = openFileDialog.FileName;
+                    var fileStream = openFileDialog.OpenFile();
+                    using (StreamReader reader = new StreamReader(fileStream))
+                    {
+                        fileContent = reader.ReadToEnd();
+                    }
+                    arr_read_file_tmp = fileContent.Split(' ');
+                    foreach (Control element in input.Controls.OfType<TextBox>())
+                    {
+                        if (arr_read_file_tmp[index].TrimEnd('\r', '\n') != "0")
+                        {
+                            element.Text = arr_read_file_tmp[index];
+                            index++;
+                        }    
+                        else if(arr_read_file_tmp[index].TrimEnd('\r', '\n') == "0")
+                        {
+                            element.Text = "";
+                            index++;
+                        }    
+                    }                       
+                }    
+            }    
+        }
+
+        private void checkToolStripMenuItem_Click(object sender, EventArgs e)
         {
             textBox81.Text = "5";
             textBox54.Text = "3";
@@ -167,7 +236,7 @@ namespace Sudoku_Solver
             textBox32.Text = "4";
             textBox58.Text = "1";
             textBox11.Text = "9";
-            textBox19.Text = "5"; 
+            textBox19.Text = "5";
             textBox55.Text = "8";
             textBox2.Text = "7";
             textBox1.Text = "9";

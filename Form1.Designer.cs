@@ -1392,6 +1392,7 @@
             this.checkToolStripMenuItem.Name = "checkToolStripMenuItem";
             this.checkToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.checkToolStripMenuItem.Text = "Check";
+            this.checkToolStripMenuItem.Click += new System.EventHandler(this.checkToolStripMenuItem_Click);
             // 
             // solveToolStripMenuItem1
             // 
