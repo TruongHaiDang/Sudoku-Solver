@@ -1288,7 +1288,7 @@
             this.new_matrix.Name = "new_matrix";
             this.new_matrix.Size = new System.Drawing.Size(125, 50);
             this.new_matrix.TabIndex = 0;
-            this.new_matrix.Text = "New";
+            this.new_matrix.Text = "Load";
             this.new_matrix.UseVisualStyleBackColor = false;
             this.new_matrix.Click += new System.EventHandler(this.new_matrix_Click);
             // 

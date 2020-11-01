@@ -15,6 +15,7 @@ namespace Sudoku_Solver
     {
         private int[,] sudoku_matrix = new int[9, 9];
         private int[] arr_tmp = new int[81];
+        private bool flag = true;
         public main()
         {
             InitializeComponent();
@@ -34,7 +35,7 @@ namespace Sudoku_Solver
                 {
                     solve_sudoku_maxtrix(sudoku_matrix, i, j);
                 }
-            }                
+            }           
         }
 
         public void init_sudoku_matrix()
@@ -98,19 +99,22 @@ namespace Sudoku_Solver
                         {
                             arr_tmp[index] = matrix_array[m, n];
                             index++;
-                            if (index == 81) index = 0;
                         }
                     }
-                    foreach (Control element in input.Controls.OfType<TextBox>())
+                    if(index == 81)
                     {
-                        element.Text = arr_tmp[z].ToString();
-                        z++;
-                    }
+                        foreach (Control element in input.Controls.OfType<TextBox>())
+                        {
+                            element.Text = arr_tmp[z].ToString();
+                            z++;                           
+                        }
+                    }      
+                    flag = false;  
                 }
                 else
                 {
                     solve_sudoku_maxtrix(matrix_array, row + 1, 0);
-                }
+                }               
             }
             else if (matrix_array[row, col] == 0)
             {
@@ -124,15 +128,15 @@ namespace Sudoku_Solver
                     }
                 }
             }
-            else
+            else if (col < 9 && flag == true)
             {
                 solve_sudoku_maxtrix(matrix_array, row, col + 1);
             }
         }
-
+        
         private void Check_result_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(sudoku_matrix.ToString());
+
         }
 
         private void new_matrix_Click(object sender, EventArgs e)
