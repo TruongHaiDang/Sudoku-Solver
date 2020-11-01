@@ -133,7 +133,11 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.ProcessBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.speed_indicator = new System.Windows.Forms.Label();
             this.input.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1319,6 +1323,9 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Black;
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.speed_indicator);
+            this.groupBox4.Controls.Add(this.label6);
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.speed);
             this.groupBox4.ForeColor = System.Drawing.Color.DeepSkyBlue;
@@ -1344,9 +1351,11 @@
             // speed
             // 
             this.speed.Location = new System.Drawing.Point(6, 65);
+            this.speed.Maximum = 2000;
             this.speed.Name = "speed";
             this.speed.Size = new System.Drawing.Size(408, 45);
             this.speed.TabIndex = 0;
+            this.speed.ValueChanged += new System.EventHandler(this.speed_ValueChanged);
             // 
             // label5
             // 
@@ -1417,7 +1426,7 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
-            this.toolStripProgressBar1});
+            this.ProcessBar});
             this.statusStrip1.Location = new System.Drawing.Point(0, 721);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1024, 22);
@@ -1430,10 +1439,52 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel1.Text = "Status";
             // 
-            // toolStripProgressBar1
+            // ProcessBar
             // 
-            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
+            this.ProcessBar.Maximum = 81;
+            this.ProcessBar.Name = "ProcessBar";
+            this.ProcessBar.Size = new System.Drawing.Size(100, 16);
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Itim", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 96);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 39);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "0";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label6.UseCompatibleTextRendering = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Itim", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(339, 96);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 39);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "2000";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label7.UseCompatibleTextRendering = true;
+            // 
+            // speed_indicator
+            // 
+            this.speed_indicator.AutoSize = true;
+            this.speed_indicator.Font = new System.Drawing.Font("Itim", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.speed_indicator.Location = new System.Drawing.Point(115, 23);
+            this.speed_indicator.Name = "speed_indicator";
+            this.speed_indicator.Size = new System.Drawing.Size(27, 39);
+            this.speed_indicator.TabIndex = 0;
+            this.speed_indicator.Text = "0";
+            this.speed_indicator.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.speed_indicator.UseCompatibleTextRendering = true;
             // 
             // main
             // 
@@ -1500,7 +1551,7 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.ToolStripProgressBar ProcessBar;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox8;
@@ -1582,6 +1633,10 @@
         private System.Windows.Forms.TextBox textBox55;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox28;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label speed_indicator;
+        private System.Windows.Forms.Label label6;
     }
 }
 

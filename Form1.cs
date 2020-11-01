@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading;
 
 namespace Sudoku_Solver
 {
@@ -29,6 +30,7 @@ namespace Sudoku_Solver
 
         private void solve_matrix_Click(object sender, EventArgs e)
         {
+            //backgroundWorker1.RunWorkerAsync();
             init_sudoku_matrix();
             for(int i = 0; i < sudoku_matrix.GetLength(0); i++)
             {
@@ -41,6 +43,7 @@ namespace Sudoku_Solver
 
         public void init_sudoku_matrix()
         {
+            flag = true;
             int i = 0, index = 0;
             foreach (Control element in input.Controls.OfType<TextBox>())
             {
@@ -107,7 +110,8 @@ namespace Sudoku_Solver
                         foreach (Control element in input.Controls.OfType<TextBox>())
                         {
                             element.Text = arr_tmp[z].ToString();
-                            z++;                           
+                            ProcessBar.Value = z;
+                            z++;
                         }
                     }      
                     flag = false;  
@@ -137,52 +141,28 @@ namespace Sudoku_Solver
         
         private void Check_result_Click(object sender, EventArgs e)
         {
-            textBox81.Text = "5";
-            textBox54.Text = "3";
-            textBox53.Text = "7";
-            textBox78.Text = "6";
-            textBox77.Text = "1";
-            textBox50.Text = "9";
-            textBox17.Text = "5";
-            textBox48.Text = "9";
-            textBox74.Text = "8";
-            textBox24.Text = "6";
-            textBox45.Text = "8";
-            textBox15.Text = "6";
-            textBox23.Text = "3";
-            textBox42.Text = "4";
-            textBox41.Text = "8";
-            textBox14.Text = "3";
-            textBox22.Text = "1";
-            textBox39.Text = "7";
-            textBox64.Text = "2";
-            textBox21.Text = "6";
-            textBox62.Text = "6";
-            textBox34.Text = "2";
-            textBox60.Text = "8";
-            textBox32.Text = "4";
-            textBox58.Text = "1";
-            textBox11.Text = "9";
-            textBox19.Text = "5";
-            textBox55.Text = "8";
-            textBox2.Text = "7";
-            textBox1.Text = "9";
+            load_sudoku_matrix_from_file();
         }
 
         private void new_matrix_Click(object sender, EventArgs e)
+        {
+            load_sudoku_matrix_from_file();
+        }
+
+        private void load_sudoku_matrix_from_file()
         {
             var fileContent = string.Empty;
             var filePath = string.Empty;
             string[] arr_read_file_tmp = new string[81];
             int index = 0;
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
-           {
+            {
                 openFileDialog.InitialDirectory = "./";
                 openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 1;
                 openFileDialog.RestoreDirectory = true;
                 openFileDialog.CheckFileExists = true;
-                if(openFileDialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     filePath = openFileDialog.FileName;
                     var fileStream = openFileDialog.OpenFile();
@@ -197,49 +177,35 @@ namespace Sudoku_Solver
                         {
                             element.Text = arr_read_file_tmp[index].Trim('\r', '\n');
                             index++;
-                        }    
-                        else if(arr_read_file_tmp[index].Trim('\r', '\n') == "0")
+                        }
+                        else if (arr_read_file_tmp[index].Trim('\r', '\n') == "0")
                         {
                             element.Text = "";
                             index++;
-                        }    
-                    }                       
-                }    
-            }    
+                        }
+                    }
+                }
+            }
         }
 
         private void checkToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            textBox81.Text = "5";
-            textBox54.Text = "3";
-            textBox53.Text = "7";
-            textBox78.Text = "6";
-            textBox77.Text = "1";
-            textBox50.Text = "9";
-            textBox17.Text = "5";
-            textBox48.Text = "9";
-            textBox74.Text = "8";
-            textBox24.Text = "6";
-            textBox45.Text = "8";
-            textBox15.Text = "6";
-            textBox23.Text = "3";
-            textBox42.Text = "4";
-            textBox41.Text = "8";
-            textBox14.Text = "3";
-            textBox22.Text = "1";
-            textBox39.Text = "7";
-            textBox64.Text = "2";
-            textBox21.Text = "6";
-            textBox62.Text = "6";
-            textBox34.Text = "2";
-            textBox60.Text = "8";
-            textBox32.Text = "4";
-            textBox58.Text = "1";
-            textBox11.Text = "9";
-            textBox19.Text = "5";
-            textBox55.Text = "8";
-            textBox2.Text = "7";
-            textBox1.Text = "9";
+            load_sudoku_matrix_from_file();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+
+        }
+
+        private void speed_ValueChanged(object sender, EventArgs e)
+        {
+            speed_indicator.Text = speed.Value.ToString();
         }
     }
 }
